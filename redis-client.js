@@ -1,7 +1,9 @@
 // redis-client.js
 const redis = require('redis')
 const {promisify} = require('util')
-const client = redis.createClient(process.env.REDIS_URL)
+
+let redisUrl = process.env.REDIS_URL || "redis://localhost:6379"
+const client = redis.createClient(redisUrl)
 
 module.exports = {
   ...client,
