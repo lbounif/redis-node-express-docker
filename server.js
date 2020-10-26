@@ -1,6 +1,6 @@
 // server.js
-import express from 'express'
-import redisClient from './redis-client'
+const express = require('express')
+const redisClient = require('./redis-client')
 
 const app = express()
 
