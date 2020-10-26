@@ -10,9 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
     "@babel/parser": "^7.9.3",
-    "nodemon": "^2.0.2"
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2",
+    "redis": "^3.0.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
